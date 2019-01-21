@@ -144,8 +144,7 @@ public class GPDispatcherServlet extends HttpServlet {
             Class<?>[] paramTypes = handlerMapping.getMethod().getParameterTypes();
             for (int i = 0; i < paramTypes.length; i++) {
                 Class<?> type = paramTypes[i];
-                if (type == HttpServletRequest.class ||
-                        type == HttpServletResponse.class) {
+                if (type == HttpServletRequest.class || type == HttpServletResponse.class) {
                     paramMapping.put(type.getName(), i);
                 }
             }

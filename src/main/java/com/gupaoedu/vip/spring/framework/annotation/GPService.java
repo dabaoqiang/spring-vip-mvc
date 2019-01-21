@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * 业务逻辑,注入接口
- * @author xq
+ * @author xqmvc
  *
  */
 @Target({ElementType.TYPE})

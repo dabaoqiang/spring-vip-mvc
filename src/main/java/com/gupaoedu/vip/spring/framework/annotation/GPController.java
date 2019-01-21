@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * 页面交互
- * @author  xq
+ * @author  xqmvc
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

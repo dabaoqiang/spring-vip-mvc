@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * 请求参数映射
- * @author xq
+ * @author xqmvc
  *
  */
 @Target(ElementType.PARAMETER)

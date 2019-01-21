@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * 请求url
- * @author xq
+ * @author xqmvc
  *
  */
 @Target({ElementType.METHOD,ElementType.TYPE})
